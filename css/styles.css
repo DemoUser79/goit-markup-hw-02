@@ -6,10 +6,15 @@
     text-decoration: none;
 }
 
+/* ============================ COMPONENTS =======*/
+
+/* ============================ /COMPONENTS =======*/
+
+/* ============================= HEADER ======= */
+
 .logotype {
     font-family: 'Raleway',
         sans-serif;
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
@@ -32,7 +37,6 @@
 .menu-link {
     font-family: 'Roboto',
         sans-serif;
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -45,10 +49,14 @@
         color: #2E2F42;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
 .contact-e-mail {
     font-family: 'Roboto',
         sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -61,10 +69,14 @@
         color: #434455;
 }
 
+.contact-e-mail:hover,
+.contact-e-mail:focus {
+    color: #404BBF;
+}
+
 .contact-phone-number {
     font-family: 'Roboto',
         sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -76,3 +88,52 @@
     
         color: #434455;
 }
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+    color: #404BBF;
+}
+
+/* ============================= /HEADER ======= */
+
+/* ============================= HERO ============ */
+
+.main-title {
+    font-family: 'Roboto',
+        sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        /* or 107% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        background: #2E2F42;
+        color: #FFFFFF;
+}
+
+.modal-btn {
+    font-family: 'Roboto',
+        sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        cursor: pointer;
+        /* identical to box height, or 150% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+
+        background: #4D5AE5;
+        color: #FFFFFF;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+/* ============================= /HERO ============ */
