@@ -6,6 +6,12 @@
     text-decoration: none;
 }
 
+body {
+    font-family: 'Roboto',
+            sans-serif;
+    color: #2E2F42;
+}
+
 /* ============================ COMPONENTS =======*/
 
 /* ============================ /COMPONENTS =======*/
@@ -18,34 +24,20 @@
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
-        /* identical to box height, or 133% */
-    
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
-        /* NAVY BLUE */
-    
-        color: #2E2F42;
-}
-
-.logo-part {
     color: #4D5AE5;
 }
 
+.header-logo-part {
+    color: #2E2F42;
+}
+
 .menu-link {
-    font-family: 'Roboto',
-        sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        /* identical to box height, or 150% */
-    
         letter-spacing: 0.02em;
-    
-        /* NAVY BLUE */
-    
         color: #2E2F42;
 }
 
@@ -55,17 +47,10 @@
 }
 
 .contact-e-mail {
-    font-family: 'Roboto',
-        sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        /* identical to box height, or 150% */
-    
         letter-spacing: 0.02em;
-    
-        /* SLATE */
-    
         color: #434455;
 }
 
@@ -75,17 +60,10 @@
 }
 
 .contact-phone-number {
-    font-family: 'Roboto',
-        sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        /* identical to box height, or 150% */
-    
         letter-spacing: 0.02em;
-    
-        /* SLATE */
-    
         color: #434455;
 }
 
@@ -96,36 +74,25 @@
 
 /* ============================= /HEADER ======= */
 
-/* ============================= HERO ============ */
+/*++++++++++++++++++++++++++++++ MAIN ++++++++++++++*/
+
+/*============================== HERO =======*/
 
 .main-title {
-    font-family: 'Roboto',
-        sans-serif;
-        font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-        /* or 107% */
-    
-        text-align: center;
         letter-spacing: 0.02em;
-
         background: #2E2F42;
         color: #FFFFFF;
 }
 
 .modal-btn {
-    font-family: 'Roboto',
-        sans-serif;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         cursor: pointer;
-        /* identical to box height, or 150% */
-    
-        display: flex;
-        align-items: center;
         letter-spacing: 0.04em;
-
         background: #4D5AE5;
         color: #FFFFFF;
 }
@@ -136,4 +103,117 @@
     color: #FFFFFF;
 }
 
-/* ============================= /HERO ============ */
+/*============================== /HERO =======*/
+
+/*============================== PRINCIPLRS OF WORK =======*/
+
+.principles-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.principles-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*============================== /PRINCIPLRS OF WORK =======*/
+
+/*============================== ABOUT =======*/
+
+.about-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+/*============================== /ABOUT =======*/
+
+/*============================== OUR TEAM =======*/
+
+.team-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42
+}
+
+.team-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*============================== /OUR TEAM =======*/
+
+/*++++++++++++++++++++++++++++++ /MAIN ++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++ FOOTER ++++++++++++++*/
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-logo-part {
+    color: #F4F4FD;
+}
+
+.footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+}
+
+/*++++++++++++++++++++++++++++++ /FOOTER ++++++++++++++*/
+
+/* ============================================ MAIN-PORTFOLIO ==*/
+
+.portfolio-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background: #F4F4FD;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+.job-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.job-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
