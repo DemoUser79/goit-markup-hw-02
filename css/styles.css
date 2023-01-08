@@ -49,6 +49,8 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-color)
@@ -59,11 +61,11 @@ body {
 }
 
 .menu-link {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .menu-link:hover,
@@ -72,14 +74,14 @@ body {
 }
 
 .contacts-address {
-        font-style: normal;
+    font-style: normal;
 }
 
 .contact-e-mail {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contact-e-mail:hover,
@@ -88,10 +90,10 @@ body {
 }
 
 .contact-phone-number {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contact-phone-number:hover,
@@ -104,25 +106,28 @@ body {
 /*============================== HERO =======*/
 
 .hero {
-        background-color: var(--dark-background-color);
+    background-color: var(--dark-background-color);
 }
 
 .main-title {
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .modal-btn {
     font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        cursor: pointer;
-        letter-spacing: 0.04em;
-        background-color: var(--accent-color);
-        color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 .modal-btn:hover,
@@ -134,39 +139,46 @@ body {
 /*============================== PRINCIPLRS OF WORK =======*/
 
 .principles-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
 }
 
 /*============================== ABOUT =======*/
 
 .about-title {
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 /*============================== OUR TEAM =======*/
 
 .team {
-        background-color: #F4F4FD;
+    background-color: #F4F4FD;
 }
 
 .team-title {
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-suptitle {
+    text-align: center;
 }
 
 .team-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
 }
 
 /*++++++++++++++++++++++++++++++ FOOTER ++++++++++++++*/
@@ -180,22 +192,25 @@ body {
 }
 
 .footer-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #E7E9FC;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
 
 /* ============================================ MAIN-PORTFOLIO ==*/
 
 .portfolio-btn {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        color: var(--accent-color);
-        background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--accent-color);
+    background-color: #F4F4FD;
 }
 
 .portfolio-btn:hover,
@@ -205,10 +220,10 @@ body {
 }
 
 .job-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--second-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
 }
 
 
