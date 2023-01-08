@@ -13,26 +13,44 @@ body {
 }
 
 :root {
-        --accent-color: #4D5AE5;
-        --second-font-family: 'Raleway',
-                sans-serif;
-        --second-color: #434455;
-        --dark-background-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --second-font-family: 'Raleway',
+        sans-serif;
+    --second-color: #434455;
+    --dark-background-color: #2E2F42;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* ============================ COMPONENTS =======*/
 
-/* ============================ /COMPONENTS =======*/
+.suptitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 /* ============================= HEADER ======= */
 
 .logotype {
     font-family: var(--second-font-family);
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--accent-color)
 }
 
@@ -51,6 +69,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+}
+
+.contacts-address {
+        font-style: normal;
 }
 
 .contact-e-mail {
@@ -76,8 +98,6 @@ body {
 .contact-phone-number:focus {
     color: #404BBF;
 }
-
-/* ============================= /HEADER ======= */
 
 /*++++++++++++++++++++++++++++++ MAIN ++++++++++++++*/
 
@@ -111,16 +131,7 @@ body {
     color: #FFFFFF;
 }
 
-/*============================== /HERO =======*/
-
 /*============================== PRINCIPLRS OF WORK =======*/
-
-.principles-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-}
 
 .principles-text {
         font-size: 16px;
@@ -128,8 +139,6 @@ body {
         letter-spacing: 0.02em;
         color: var(--second-color);
 }
-
-/*============================== /PRINCIPLRS OF WORK =======*/
 
 /*============================== ABOUT =======*/
 
@@ -139,8 +148,6 @@ body {
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
-
-/*============================== /ABOUT =======*/
 
 /*============================== OUR TEAM =======*/
 
@@ -155,23 +162,12 @@ body {
         text-transform: capitalize;
 }
 
-.team-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-}
-
 .team-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--second-color);
 }
-
-/*============================== /OUR TEAM =======*/
-
-/*++++++++++++++++++++++++++++++ /MAIN ++++++++++++++*/
 
 /*++++++++++++++++++++++++++++++ FOOTER ++++++++++++++*/
 
@@ -190,8 +186,6 @@ body {
         color: #E7E9FC;
 }
 
-/*++++++++++++++++++++++++++++++ /FOOTER ++++++++++++++*/
-
 /* ============================================ MAIN-PORTFOLIO ==*/
 
 .portfolio-btn {
@@ -208,13 +202,6 @@ body {
 .portfolio-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
-}
-
-.job-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
 }
 
 .job-text {
