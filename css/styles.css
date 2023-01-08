@@ -12,6 +12,14 @@ body {
     color: #2E2F42;
 }
 
+:root {
+        --accent-color: #4D5AE5;
+        --second-font-family: 'Raleway',
+                sans-serif;
+        --second-color: #434455;
+        --dark-background-color: #2E2F42;
+}
+
 /* ============================ COMPONENTS =======*/
 
 /* ============================ /COMPONENTS =======*/
@@ -19,14 +27,13 @@ body {
 /* ============================= HEADER ======= */
 
 .logotype {
-    font-family: 'Raleway',
-        sans-serif;
+    font-family: var(--second-font-family);
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-color)
 }
 
 .header-logo-part {
@@ -47,7 +54,6 @@ body {
 }
 
 .contact-e-mail {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -60,7 +66,6 @@ body {
 }
 
 .contact-phone-number {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -78,11 +83,14 @@ body {
 
 /*============================== HERO =======*/
 
+.hero {
+        background-color: var(--dark-background-color);
+}
+
 .main-title {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        background: #2E2F42;
         color: #FFFFFF;
 }
 
@@ -93,7 +101,7 @@ body {
         line-height: 1.5;
         cursor: pointer;
         letter-spacing: 0.04em;
-        background: #4D5AE5;
+        background-color: var(--accent-color);
         color: #FFFFFF;
 }
 
@@ -112,14 +120,13 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
 }
 
 .principles-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--second-color);
 }
 
 /*============================== /PRINCIPLRS OF WORK =======*/
@@ -131,19 +138,21 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
 }
 
 /*============================== /ABOUT =======*/
 
 /*============================== OUR TEAM =======*/
 
+.team {
+        background-color: #F4F4FD;
+}
+
 .team-title {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42
 }
 
 .team-subtitle {
@@ -151,14 +160,13 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
 }
 
 .team-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--second-color);
 }
 
 /*============================== /OUR TEAM =======*/
@@ -168,7 +176,7 @@ body {
 /*++++++++++++++++++++++++++++++ FOOTER ++++++++++++++*/
 
 .footer {
-    background: #2E2F42;
+    background-color: var(--dark-background-color);
 }
 
 .footer-logo-part {
@@ -186,19 +194,20 @@ body {
 
 /* ============================================ MAIN-PORTFOLIO ==*/
 
-.portfolio-link {
+.portfolio-btn {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background: #F4F4FD;
+        cursor: pointer;
+        color: var(--accent-color);
+        background-color: #F4F4FD;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: #FFFFFF;
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 .job-subtitle {
@@ -206,14 +215,13 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
 }
 
 .job-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--second-color);
 }
 
 
